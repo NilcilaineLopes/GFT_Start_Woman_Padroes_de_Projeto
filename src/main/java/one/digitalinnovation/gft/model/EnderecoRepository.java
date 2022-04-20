@@ -1,5 +1,8 @@
 package one.digitalinnovation.gft.model;
 
+import org.springframework.data.repository.CrudRepository;
+import org.springframework.stereotype.Repository;
 
-public interface EnderecoRepository {
+@Repository
+public interface EnderecoRepository extends CrudRepository<Endereco, Long> {
 }
